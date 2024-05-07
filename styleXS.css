@@ -1,0 +1,111 @@
+
+#navbar{
+display: flex;
+}
+
+
+/* three dot */
+.containerForThreeDot {
+    display: inline-block;
+    cursor: pointer;
+    margin-top: 7px;
+    margin-left: 4px;
+  }
+  
+  .bar1,
+  .bar2,
+  .bar3 {
+    width: 30px;
+    height: 4px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  .change .bar1 {
+    transform: translate(0, 11px) rotate(-45deg);
+  }
+  
+  .change .bar2 {
+    opacity: 0;
+  }
+  
+  .change .bar3 {
+    transform: translate(0, -11px) rotate(45deg);
+  }
+
+
+  /* login / signup button */
+  .button-signUp {
+    margin: 0px 0px 0px 4px; 
+   background: #ff4742;
+   border: 1px solid #ff4742;
+   border-radius: 6px;
+   box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+   box-sizing: border-box;
+   color: #ffffff;
+   cursor: pointer;
+   display: inline-block;
+   font-family: nunito, roboto, proxima-nova, "proxima nova", sans-serif;
+   font-size: 8px;
+   font-weight: 800;
+   line-height: 0px;
+   min-height: -17px;
+   width: 77px;
+   outline: 0;
+   padding: 16px 0px;
+   margin: 8px 0px 0px 12px;
+   text-align: center;
+   text-rendering: geometricprecision;
+   text-transform: none;
+   user-select: none;
+   -webkit-user-select: none;
+   touch-action: manipulation;
+   vertical-align: middle;
+ }
+ 
+ .button-signUp :hover,
+ .button-signUp :active {
+   background-color: initial;
+   background-position: 0 0;
+   color: #ff4742;
+ }
+ 
+ .button-signUp:active {
+   opacity: 0.5;
+ }
+
+ /* for logo name */
+
+  
+  .logo-name img {
+    margin: 10px 0px 0px 72px;
+    height: 2rem;
+  }
+  
+
+
+  /* follow section in navbar */
+
+.followText {
+    display: flex;
+   padding: 0px 0px 0px 0px;
+   opacity: 0%; 
+  }
+  
+  ul {
+    list-style: none;
+    display: inline-flex;
+    float: right;
+   padding: 0px 0px 0px 0px; 
+  }
+  
+  li {
+     margin: 0px 0px 0px 0px; 
+  }
+  
+  li img {
+    width: 25px;
+    height: 25px;
+  }
+  
