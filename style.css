@@ -1,110 +1,127 @@
-#navbar{
-    height: 50px;
-    background-color: rgb(255, 255, 255);
-    border-bottom: 2px solid black;
+#navbar {
+  height: 50px;
+  background-color: rgb(255, 255, 255);
+  border-bottom: 2px solid black;
 }
 
 /* for 3 bar */
 
 .containerForThreeDot {
-    display: inline-block;
-    cursor: pointer;
-    margin-top: 7px;
-    margin-left: 4px;
-  }
-  
-  .bar1, .bar2, .bar3 {
-    width: 30px;
-    height: 4px;
-    background-color: #333;
-    margin: 6px 0;
-    transition: 0.4s;
-  }
-  
-  .change .bar1 {
-    transform: translate(0, 11px) rotate(-45deg);
-  }
-  
-  .change .bar2 {opacity: 0;}
-  
-  .change .bar3 {
-    transform: translate(0, -11px) rotate(45deg);
-  }
-
-
-  /* for sign up button */
-
-  .button-signUp {
-    margin: -65px 0px 0px 40px;
-    background: #FF4742;
-    border: 1px solid #FF4742;
-    border-radius: 6px;
-    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
-    box-sizing: border-box;
-    color: #FFFFFF;
-    cursor: pointer;
-    display: inline-block;
-    font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
-    font-size: 16px;
-    font-weight: 800;
-    line-height: 8px;
-    min-height: 35px;
-    outline: 0;
-    padding: 12px 14px;
-    text-align: center;
-    text-rendering: geometricprecision;
-    text-transform: none;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-    vertical-align: middle;
-  }
-  
-  .button-signUp :hover,
-  .button-signUp :active {
-    background-color: initial;
-    background-position: 0 0;
-    color: #FF4742;
-  }
-  
-  .button-signUp:active {
-    opacity: .5;
-  }
-
-
-  /* for logo name epicurious */
-
-.logo-name{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   
+  display: inline-block;
+  cursor: pointer;
+  margin-top: 7px;
+  margin-left: 4px;
 }
 
-.logo-name img{
-    height: 10%;
-    width: 10%;
-    margin: -89px 0px 0px 40px;
-    
-  }
-
-  /* follow section in navbar */
-
-  .followText{
-    display: flex;
-    float: right;
-    margin: -50px 115px 0px 0px;
-  }
-  ul{
-    list-style: none;
-    display: inline-flex;
-    float: right;
-    margin: -58px 5px 0px 0px;
-  }
-li{
-    margin: 0px -190px 0px 0px;
+.bar1,
+.bar2,
+.bar3 {
+  width: 30px;
+  height: 4px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
 }
- li img{
-    width: 15%;
- 
+
+.change .bar1 {
+  transform: translate(0, 11px) rotate(-45deg);
+}
+
+.change .bar2 {
+  opacity: 0;
+}
+
+.change .bar3 {
+  transform: translate(0, -11px) rotate(45deg);
+}
+
+/* for sign up button */
+
+.button-signUp {
+  margin: -65px 0px 0px 40px;
+  background: #ff4742;
+  border: 1px solid #ff4742;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito, roboto, proxima-nova, "proxima nova", sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 8px;
+  min-height: 35px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+.button-signUp :hover,
+.button-signUp :active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #ff4742;
+}
+
+.button-signUp:active {
+  opacity: 0.5;
+}
+
+/* for logo name epicurious */
+
+.logo-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-name img {
+  height: 10%;
+  width: 10%;
+  margin: -89px 0px 0px 40px;
+}
+
+/* follow section in navbar */
+
+.followText {
+  display: flex;
+  float: right;
+  margin: -50px 115px 0px 0px;
+}
+
+ul {
+  list-style: none;
+  display: inline-flex;
+  float: right;
+  margin: -58px 5px 0px 0px;
+}
+
+li {
+  margin: 0px -190px 0px 0px;
+}
+
+li img {
+  width: 15%;
+}
+
+
+/* for responsiveness */
+/* xs  */
+/* @media (min-width: 475px) {
+  #navbar {
+    display: flex;
+  }
+*/
+
+  #herobanner{
+    height: 600px;
+    background-image: url(https://media.istockphoto.com/id/1152493500/photo/authentic-indian-dishes-and-snacks.jpg?s=2048x2048&w=is&k=20&c=Dd28oVLiENf4XZz7c1SAL2n76t4LCRnkoHFH-mty5ss=);
+    width: 100%;
   }
